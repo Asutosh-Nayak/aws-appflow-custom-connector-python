@@ -5,7 +5,7 @@ Resources:
   Function:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: custom_connector_example.handlers.lambda_handler.salesforce_lambda_handler
+      Handler: custom_connector_example2.handlers.lambda_handler.salesforce_lambda_handler
       Runtime: python3.8
       CodeUri: s3://customconnector-artifacts-f7af2b3cfef0f249/0e985abc9bee428b3153e3afa0d9663d
       Description: Example for writing and deploying your AppFlow connector
