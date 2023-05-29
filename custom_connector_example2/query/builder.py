@@ -3,7 +3,7 @@ from typing import List, Tuple
 from custom_connector_sdk.connector.fields import FieldDataType
 from custom_connector_sdk.connector.context import EntityDefinition
 from custom_connector_queryfilter.queryfilter.parse_tree_builder import parse
-from custom_connector_example.query.visitor import SalesforceQueryFilterExpressionVisitor
+from custom_connector_example2.query.visitor import SalesforceQueryFilterExpressionVisitor
 
 CONDITION_FORMAT = '{} {} {}'
 WHERE_AND = ' and '
